@@ -1,0 +1,5 @@
+parameter_defaults:
+  SwiftMountCheck: true
+  SwiftRawDisks: {"sdb": {}, "sdc": {}}
+  SwiftUseLocalDir: false
+

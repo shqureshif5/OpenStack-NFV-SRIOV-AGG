@@ -1,0 +1,15 @@
+parameter_defaults:
+    NeutronTunnelTypes: 'vxlan'
+    NeutronNetworkType: 'vlan,vxlan'
+    NeutronBridgeMappings:
+      - "dplane:dataplane"
+    NeutronNetworkVLANRanges:
+      - "dplane:100:3300"
+    NeutronSriovNumVFs:
+      - "p1p1:8:switchdev"
+    NeutronPhysicalDevMappings:
+      - "dplane:p1p1"
+    NovaPCIPassthrough:
+      - devname: 'p1p1'
+        physical_network: 'dplane'
+

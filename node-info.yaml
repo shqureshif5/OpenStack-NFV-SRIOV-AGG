@@ -1,0 +1,8 @@
+parameter_defaults:
+  OvercloudControllerFlavor: control
+#  OvercloudComputeFlavor: computesriov
+#  OvercloudComputeSriovFlavor: computesriov
+#  OvercloudSwiftStorageFlavor: swift-storage
+  ControllerCount: 1
+#  ComputeSriovCount: 2
+#  SwiftStorageCount: 1
